@@ -1,5 +1,5 @@
 // For solar-system-container
-let solarSystemLink = 'https://raw.githubusercontent.com/Abrar822/Exoplanets-Facts/refs/heads/main/solarSystem.json';
+let solarSystemLink = 'https://raw.githubusercontent.com/Abrar822/Space.A/refs/heads/main/solarSystem.json';
 let savedScroll;
 let solarData = []
 let solarSystemContainer = document.querySelector('.solar-system-container');
