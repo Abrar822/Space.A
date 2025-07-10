@@ -1,5 +1,5 @@
 // For quiz
-let quizLink = 'https://raw.githubusercontent.com/Abrar822/Exoplanets-Facts/refs/heads/main/mcqs.json';
+let quizLink = 'https://raw.githubusercontent.com/Abrar822/Space.A/refs/heads/main/mcqs.json';
 let quizBtn = document.querySelectorAll('.quizBtn');
 let hero = document.querySelector('.hero');
 let left = document.querySelector('.left');
