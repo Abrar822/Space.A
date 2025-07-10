@@ -1,0 +1,114 @@
+[
+    {
+        "term": "Exoplanet",
+        "definition": "A planet that orbits a star outside our Solar System. These distant worlds vary widely in size, composition, and conditions, offering clues about the diversity of planets in the universe."
+    },
+    {
+        "term": "Host Star",
+        "definition": "The main star that a planet orbits. It provides light, heat, and gravitational stability to its planetary system."
+    },
+    {
+        "term": "Number of Stars",
+        "definition": "The count of stars in a planetary system. While most systems have one star, some contain two (binary) or more stars orbiting together."
+    },
+    {
+        "term": "Discovery Method",
+        "definition": "The technique scientists use to detect exoplanets. Common methods include the Transit Method (watching a planet pass in front of a star) and the Radial Velocity Method (detecting tiny wobbles in a star's movement)."
+    },
+    {
+        "term": "Discovery Facility",
+        "definition": "The telescope, satellite, or observatory that was used to discover the exoplanet or star system, such as NASA’s Kepler or the Gaia observatory."
+    },
+    {
+        "term": "Orbital Period",
+        "definition": "The time it takes for a planet to complete one full orbit around its host star, usually measured in Earth days or years."
+    },
+    {
+        "term": "Semi-Major Axis",
+        "definition": "The average distance between a planet and its star, representing half the longest diameter of the orbit. It's commonly measured in Astronomical Units (AU), where 1 AU is the distance between Earth and the Sun."
+    },
+    {
+        "term": "Mass",
+        "definition": "The amount of matter contained in an object, such as a planet or star. It is often compared to Earth’s mass for planets or the Sun’s mass for stars."
+    },
+    {
+        "term": "Orbital Eccentricity",
+        "definition": "A measure of how stretched an orbit is. An eccentricity of 0 means a perfect circle, while values closer to 1 mean the orbit is more elongated or oval-shaped."
+    },
+    {
+        "term": "Spectral Type",
+        "definition": "A classification system for stars based on their temperature and color, ranging from hot, blue stars to cooler, red stars. It gives insight into the star's energy, age, and composition."
+    },
+    {
+        "term": "Stellar Temperature",
+        "definition": "The surface temperature of a star, measured in Kelvin (K). It determines the star's color—hotter stars appear blue, cooler stars appear red."
+    },
+    {
+        "term": "Stellar Radius",
+        "definition": "The size of a star, usually compared to the Sun’s radius. Larger stars are generally more luminous but may have shorter lifespans."
+    },
+    {
+        "term": "Stellar Mass",
+        "definition": "The total mass of a star, typically measured in Solar masses (compared to the Sun). A star’s mass affects its brightness, lifespan, and ability to form planets."
+    },
+    {
+        "term": "Stellar Metallicity",
+        "definition": "The proportion of elements in a star that are heavier than hydrogen and helium. Higher metallicity often means a greater chance of forming planets, especially rocky ones."
+    },
+    {
+        "term": "Gaia Magnitude",
+        "definition": "A measure of a star’s brightness as observed by the Gaia space observatory. Lower values indicate brighter stars, while higher values mean dimmer stars."
+    },
+    {
+        "term": "Solar System",
+        "definition": "The Solar System is the collection of the Sun and all the objects that are gravitationally bound to it, including eight planets, their moons, dwarf planets, asteroids, comets, and meteoroids. It is located in the Milky Way galaxy."
+    },
+    {
+        "term": "Name",
+        "definition": "The official name of the planet in the Solar System."
+    },
+    {
+        "term": "Radius (km)",
+        "definition": "The distance from the center of the planet to its surface, measured in kilometers."
+    },
+    {
+        "term": "Distance from Sun (million km)",
+        "definition": "The average distance of the planet from the Sun, measured in million kilometers."
+    },
+    {
+        "term": "Gravity (m/s²)",
+        "definition": "The surface gravity of the planet, measured in meters per second squared (m/s²)."
+    },
+    {
+        "term": "Day Length (hours)",
+        "definition": "The duration of one full rotation of the planet on its axis, measured in Earth hours."
+    },
+    {
+        "term": "Moons",
+        "definition": "The number of natural satellites (moons) that orbit the planet."
+    },
+    {
+        "term": "Orbital Period (days)",
+        "definition": "The time the planet takes to complete one full orbit around the Sun, measured in Earth days."
+    },
+    {
+        "term": "Average Temperature (°C)",
+        "definition": "The average surface temperature of the planet, measured in degrees Celsius."
+    },
+    {
+        "term": "Type",
+        "definition": "The classification of the planet based on its composition, such as Rocky (terrestrial) or Gas Giant."
+    },
+    {
+        "term": "Atmosphere",
+        "definition": "The primary gases present in the planet's atmosphere."
+    },
+    {
+        "term": "Escape Velocity (km/s)",
+        "definition": "The minimum velocity required to escape the planet's gravitational pull, measured in kilometers per second (km/s)."
+    },
+    {
+        "term": "Discovery",
+        "definition": "The historical record of when the planet was first known or discovered."
+    }
+]
