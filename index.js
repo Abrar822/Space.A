@@ -96,7 +96,7 @@ exploreButton.addEventListener('click', function (event) {
 })
 
 // For generating random facts
-let factsGeneratingLink = "https://raw.githubusercontent.com/Abrar822/Exoplanets-Facts/refs/heads/main/exoplanet_facts.json";
+let factsGeneratingLink = "https://raw.githubusercontent.com/Abrar822/Space.A/refs/heads/main/exoplanet_facts.json";
 let leftP = document.querySelector('.leftP');
 async function fetcher() {
     let response = await fetch(factsGeneratingLink);
