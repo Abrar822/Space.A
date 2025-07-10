@@ -22,7 +22,7 @@ numBtns.forEach((btn) => {
 let data = [];
 let filteredData = [];
 let activeData = [];
-let exosDataLink = 'https://raw.githubusercontent.com/Abrar822/Exoplanets-Facts/refs/heads/main/exo.json';
+let exosDataLink = 'https://raw.githubusercontent.com/Abrar822/Space.A/refs/heads/main/exo.json';
 async function fetchExosData() {
     loader.style.display = 'flex';
     let response = await fetch(exosDataLink);
