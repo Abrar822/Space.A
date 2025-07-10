@@ -1,5 +1,5 @@
 // For glossary section
-let glossaryLink = 'https://raw.githubusercontent.com/Abrar822/Exoplanets-Facts/refs/heads/main/glossary.json';
+let glossaryLink = 'https://raw.githubusercontent.com/Abrar822/Space.A/refs/heads/main/glossary.json';
 let glossaryContainer = document.querySelector('.glossary-container');
 let glossaries = []
 async function fetchGlossary() {
