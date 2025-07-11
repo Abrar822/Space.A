@@ -8,8 +8,6 @@ aboutUsBtn.forEach((btn) => {
                 if(getComputedStyle(exploreExosContainer).display === 'flex') {
                     savedScrollPos = hiddenContainer.scrollTop;
                 }
-                // To ensure it stays with no initial scroll
-                hiddenContainer.scrollTop = '0px';
                 section.style.top = '1000px';
                 setTimeout(() => {
                     section.style.display = 'none';
