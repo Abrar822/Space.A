@@ -93,8 +93,6 @@ solarBtn.forEach((btn) => {
         if(getComputedStyle(exploreExosContainer).display === 'flex') {
             savedScrollPos = hiddenContainer.scrollTop;
         }
-        // To ensure it stays with no initial scroll
-        hiddenContainer.scrollTop = '0px';
         for(let section of sections) {
             if(getComputedStyle(section).display !== 'none' && !section.classList.contains('solar-system-container')) {
                 section.style.top = '1000px';
