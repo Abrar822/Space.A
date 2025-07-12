@@ -59,15 +59,24 @@ async function loadSolarOnPage() {
                     <div class = "planet-data">
                         <button class="back">Back</button>
                         <h2>${planetData.name}</h2>
-                        <p>Number of Moons: ${planetData.moons}</p>
                         <p>Gravity: ${planetData.gravity_m_s2} m/s<sup>2</sup></p>
-                        <p>Distance from the Sun: ${planetData.distance_from_sun_million_km} million kms</p>
+                        <p>Mass: ${planetData.mass_1024_kg} * 10<sup>24</sup> Kg</p>
+                        <p>Density: ${planetData.density_kg_m3} Kg/m<sup>3</sup></p>
+                        <p>Confirmed Moons: ${planetData.moons}</p>
                         <p>Radius of ${planetData.name}: ${planetData.radius_km} kms</p>
-                        <p>Escape velocity: ${planetData.escape_velocity_km_s} km/s</p>
-                        <p>Discovery: ${planetData.discovery}</p>
-                        <p>Length of the day: ${planetData.day_length_hours} hrs</p>
-                        <p>Average Temperature: ${planetData.average_temperature_c} degC</p>
                         <p>Orbital Period: ${planetData.orbital_period_days} days</p>
+                        <p>Rotation-Period (Sidereal Day): ${planetData.rotation_period_hrs} hrs</p>
+                        <p>Day-Length (Solar Day): ${planetData.length_of_day_hrs} hrs</p>
+                        <p>Distance from the Sun: ${planetData.distance_from_sun_million_km} million kms</p>
+                        <p>Perihelion: ${planetData.perihelion_106_km} * 10<sup>6</sup> Kms</p>
+                        <p>Aphelion: ${planetData.aphelion_106_km} * 10<sup>6</sup> Kms</p>
+                        <p>Escape Velocity: ${planetData.escape_velocity_km_s} km/s</p>
+                        <p>Orbital velocity: ${planetData.orbital_velocity_km_s} km/s</p>
+                        <p>Discovery: ${planetData.discovery}</p>
+                        <p>Orbital Inclination: ${planetData.orbital_inclination_degress} deg</p>
+                        <p>Orbital Eccentricity: ${planetData.orbital_eccentricity}</p>
+                        <p>Obliquity to orbits: ${planetData.obliquity_to_orbit_degrees} deg</p>
+                        <p>Mean Temperature: ${planetData.average_temperature_c} degC</p>
                         <p>Type: ${planetData.type}</p>
                         <p>Atmosphere: ${planetData.atmosphere}</p>
                         <p>Fact: ${planetData.fun_fact}</p>
