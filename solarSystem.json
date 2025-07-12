@@ -4,7 +4,6 @@
     "radius_km": 2439,
     "distance_from_sun_million_km": 57.9,
     "gravity_m_s2": 3.7,
-    "day_length_hours": 1408,
     "moons": 0,
     "orbital_period_days": 88,
     "average_temperature_c": 167,
@@ -23,15 +22,13 @@
     "orbital_velocity_km_s": 47.4,
     "orbital_inclination_degress": 7.0,
     "orbital_eccentricity": 0.206,
-    "obliquity_to_orbit_degrees": 0.034,
-    "mean_temperature_c": 167
+    "obliquity_to_orbit_degrees": 0.034
   },
   {
     "name": "Venus",
     "radius_km": 6052,
     "distance_from_sun_million_km": 108.2,
     "gravity_m_s2": 8.87,
-    "day_length_hours": 5832,
     "moons": 0,
     "orbital_period_days": 225,
     "average_temperature_c": 464,
@@ -50,15 +47,13 @@
     "orbital_velocity_km_s": 35.0,
     "orbital_inclination_degress": 3.4,
     "orbital_eccentricity": 0.007,
-    "obliquity_to_orbit_degrees": 177.4,
-    "mean_temperature_c": 464
+    "obliquity_to_orbit_degrees": 177.4
   },
   {
     "name": "Earth",
     "radius_km": 6371,
     "distance_from_sun_million_km": 149.6,
     "gravity_m_s2": 9.8,
-    "day_length_hours": 24,
     "moons": 1,
     "orbital_period_days": 365,
     "average_temperature_c": 15,
@@ -77,15 +72,13 @@
     "orbital_velocity_km_s": 29.8,
     "orbital_inclination_degress": 0.0,
     "orbital_eccentricity": 0.017,
-    "obliquity_to_orbit_degrees": 23.4,
-    "mean_temperature_c": 15
+    "obliquity_to_orbit_degrees": 23.4
   },
   {
     "name": "Mars",
     "radius_km": 3390,
     "distance_from_sun_million_km": 227.9,
     "gravity_m_s2": 3.71,
-    "day_length_hours": 24.6,
     "moons": 2,
     "orbital_period_days": 687,
     "average_temperature_c": -65,
@@ -104,15 +97,13 @@
     "orbital_velocity_km_s": 24.1,
     "orbital_inclination_degress": 1.8,
     "orbital_eccentricity": 0.094,
-    "obliquity_to_orbit_degrees": 25.2,
-    "mean_temperature_c": -65
+    "obliquity_to_orbit_degrees": 25.2
   },
   {
     "name": "Jupiter",
     "radius_km": 69911,
     "distance_from_sun_million_km": 778.5,
     "gravity_m_s2": 24.79,
-    "day_length_hours": 9.9,
     "moons": 97,
     "orbital_period_days": 4331,
     "average_temperature_c": -110,
@@ -131,15 +122,13 @@
     "orbital_velocity_km_s": 13.1,
     "orbital_inclination_degress": 1.3,
     "orbital_eccentricity": 0.049,
-    "obliquity_to_orbit_degrees": 3.1,
-    "mean_temperature_c": -110
+    "obliquity_to_orbit_degrees": 3.1
   },
   {
     "name": "Saturn",
     "radius_km": 58232,
     "distance_from_sun_million_km": 1434,
     "gravity_m_s2": 10.44,
-    "day_length_hours": 10.7,
     "moons": 274,
     "orbital_period_days": 10747,
     "average_temperature_c": -140,
@@ -158,15 +147,13 @@
     "orbital_velocity_km_s": 9.7,
     "orbital_inclination_degress": 2.5,
     "orbital_eccentricity": 0.052,
-    "obliquity_to_orbit_degrees": 26.7,
-    "mean_temperature_c": -140
+    "obliquity_to_orbit_degrees": 26.7
   },
   {
     "name": "Uranus",
     "radius_km": 25362,
     "distance_from_sun_million_km": 2871,
     "gravity_m_s2": 8.69,
-    "day_length_hours": 17.2,
     "moons": 28,
     "orbital_period_days": 30589,
     "average_temperature_c": -195,
@@ -185,15 +172,13 @@
     "orbital_velocity_km_s": 6.8,
     "orbital_inclination_degress": 0.8,
     "orbital_eccentricity": 0.047,
-    "obliquity_to_orbit_degrees": 97.8,
-    "mean_temperature_c": -195
+    "obliquity_to_orbit_degrees": 97.8
   },
   {
     "name": "Neptune",
     "radius_km": 24622,
     "distance_from_sun_million_km": 4495,
     "gravity_m_s2": 11.15,
-    "day_length_hours": 16.1,
     "moons": 16,
     "orbital_period_days": 59800,
     "average_temperature_c": -200,
@@ -212,7 +197,6 @@
     "orbital_velocity_km_s": 5.4,
     "orbital_inclination_degress": 1.8,
     "orbital_eccentricity": 0.010,
-    "obliquity_to_orbit_degrees": 28.3,
-    "mean_temperature_c": -200
+    "obliquity_to_orbit_degrees": 28.3
   }
 ]
