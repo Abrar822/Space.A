@@ -235,6 +235,7 @@ input[type = 'number']::placeholder {
     display: flex;
     justify-content: center;
     align-items: center;
+    align-self: flex-start;
     flex-direction: column;
     flex: 1;
     margin: 20px;
@@ -351,6 +352,7 @@ input[type = 'number']::placeholder {
     .explore-exos-container .image-container {
         margin: 0;
         margin-bottom: 30px;
+        align-self: normal;
     }
     .explore-exos-container .data-container {
         margin: 0;
