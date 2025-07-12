@@ -352,7 +352,7 @@ input[type = 'number']::placeholder {
     .explore-exos-container .image-container {
         margin: 0;
         margin-bottom: 30px;
-        align-self: normal;
+        align-self: center;
     }
     .explore-exos-container .data-container {
         margin: 0;
