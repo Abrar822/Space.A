@@ -39,7 +39,7 @@
 }
 .about-website .title {
     align-self: flex-start;
-    font-size: 4rem;
+    font-size: 3rem;
 }
 .about-creator .title {
     align-self: flex-start;
@@ -50,7 +50,7 @@
     justify-content: center;
 }
 .website-content {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
 }
 .features {
     font-size: 2rem;
