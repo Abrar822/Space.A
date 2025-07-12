@@ -13,7 +13,18 @@
     "escape_velocity_km_s": 4.25,
     "discovery": "Known since ancient times",
     "fun_fact": "A day on Mercury is longer than its year!",
-    "image": "https://res.cloudinary.com/docy6d2mr/image/upload/v1750955319/mercury_r2n2vl.png"
+    "image": "https://res.cloudinary.com/docy6d2mr/image/upload/v1750955319/mercury_r2n2vl.png",
+    "mass_10^24_kg": 0.330,
+    "density_kg/m3": 5429,
+    "rotation_period_hrs": 1407.6,
+    "length_of_day_hrs": 4222.6,
+    "perihelion_10^6_km": 46.0,
+    "aphelion_10^6_km": 69.8,
+    "orbital_velocity_km_s": 47.4,
+    "orbital_inclination_degress": 7.0,
+    "orbital_eccentricity": 0.206,
+    "obliquity_to_orbit_degrees": 0.034,
+    "mean_temperature_c": 167
   },
   {
     "name": "Venus",
@@ -29,7 +40,18 @@
     "escape_velocity_km_s": 10.36,
     "discovery": "Known since ancient times",
     "fun_fact": "Venus spins backwards compared to most planets!",
-    "image": "https://res.cloudinary.com/docy6d2mr/image/upload/v1752165087/venus_gqqn3t.png"
+    "image": "https://res.cloudinary.com/docy6d2mr/image/upload/v1752165087/venus_gqqn3t.png",
+    "mass_10^24_kg": 4.87,
+    "density_kg/m3": 5243,
+    "rotation_period_hrs": -5832.5,
+    "length_of_day_hrs": 2802.0,
+    "perihelion_10^6_km": 107.5,
+    "aphelion_10^6_km": 108.9,
+    "orbital_velocity_km_s": 35.0,
+    "orbital_inclination_degress": 3.4,
+    "orbital_eccentricity": 0.007,
+    "obliquity_to_orbit_degrees": 177.4,
+    "mean_temperature_c": 464
   },
   {
     "name": "Earth",
@@ -45,7 +67,18 @@
     "escape_velocity_km_s": 11.19,
     "discovery": "N/A - Our home",
     "fun_fact": "Earth is the only planet known to support life.",
-    "image": "https://res.cloudinary.com/docy6d2mr/image/upload/v1752165168/earth_mfypv1.png"
+    "image": "https://res.cloudinary.com/docy6d2mr/image/upload/v1752165168/earth_mfypv1.png",
+    "mass_10^24_kg": 5.97,
+    "density_kg/m3": 5514,
+    "rotation_period_hrs": 23.9,
+    "length_of_day_hrs": 24.0,
+    "perihelion_10^6_km": 147.1,
+    "aphelion_10^6_km": 152.1,
+    "orbital_velocity_km_s": 29.8,
+    "orbital_inclination_degress": 0.0,
+    "orbital_eccentricity": 0.017,
+    "obliquity_to_orbit_degrees": 23.4,
+    "mean_temperature_c": 15
   },
   {
     "name": "Mars",
@@ -61,7 +94,18 @@
     "escape_velocity_km_s": 5.03,
     "discovery": "Known since ancient times",
     "fun_fact": "Mars has the tallest volcano in the Solar System — Olympus Mons.",
-    "image": "https://res.cloudinary.com/docy6d2mr/image/upload/v1752165212/mars_bwb6wv.png"
+    "image": "https://res.cloudinary.com/docy6d2mr/image/upload/v1752165212/mars_bwb6wv.png",
+    "mass_10^24_kg": 0.642,
+    "density_kg/m3": 3934,
+    "rotation_period_hrs": 24.6,
+    "length_of_day_hrs": 24.7,
+    "perihelion_10^6_km": 206.7,
+    "aphelion_10^6_km": 249.3,
+    "orbital_velocity_km_s": 24.1,
+    "orbital_inclination_degress": 1.8,
+    "orbital_eccentricity": 0.094,
+    "obliquity_to_orbit_degrees": 25.2,
+    "mean_temperature_c": -65
   },
   {
     "name": "Jupiter",
@@ -77,7 +121,18 @@
     "escape_velocity_km_s": 59.5,
     "discovery": "Known since ancient times",
     "fun_fact": "Jupiter's Great Red Spot is a giant storm larger than Earth.",
-    "image": "https://res.cloudinary.com/docy6d2mr/image/upload/v1752165261/jupiter_z9pfo4.png"
+    "image": "https://res.cloudinary.com/docy6d2mr/image/upload/v1752165261/jupiter_z9pfo4.png",
+    "mass_10^24_kg": 1898,
+    "density_kg/m3": 1326,
+    "rotation_period_hrs": 9.9,
+    "length_of_day_hrs": 9.9,
+    "perihelion_10^6_km": 740.6,
+    "aphelion_10^6_km": 816.4,
+    "orbital_velocity_km_s": 13.1,
+    "orbital_inclination_degress": 1.3,
+    "orbital_eccentricity": 0.049,
+    "obliquity_to_orbit_degrees": 3.1,
+    "mean_temperature_c": -110
   },
   {
     "name": "Saturn",
@@ -93,7 +148,18 @@
     "escape_velocity_km_s": 35.5,
     "discovery": "Known since ancient times",
     "fun_fact": "Saturn could float in water — it's mostly gas with low density.",
-    "image": "https://res.cloudinary.com/docy6d2mr/image/upload/v1752165311/exo1_lnm4bo.png"
+    "image": "https://res.cloudinary.com/docy6d2mr/image/upload/v1752165311/exo1_lnm4bo.png",
+    "mass_10^24_kg": 568,
+    "density_kg/m3": 687,
+    "rotation_period_hrs": 10.7,
+    "length_of_day_hrs": 10.7,
+    "perihelion_10^6_km": 1357.6,
+    "aphelion_10^6_km": 1506.5,
+    "orbital_velocity_km_s": 9.7,
+    "orbital_inclination_degress": 2.5,
+    "orbital_eccentricity": 0.052,
+    "obliquity_to_orbit_degrees": 26.7,
+    "mean_temperature_c": -140
   },
   {
     "name": "Uranus",
@@ -109,7 +175,18 @@
     "escape_velocity_km_s": 21.3,
     "discovery": "1781 by William Herschel",
     "fun_fact": "Uranus rotates on its side — it has a tilt of 98 degrees!",
-    "image": "https://res.cloudinary.com/docy6d2mr/image/upload/v1752165263/uranus_x0efqp.png"
+    "image": "https://res.cloudinary.com/docy6d2mr/image/upload/v1752165263/uranus_x0efqp.png",
+    "mass_10^24_kg": 86.8,
+    "density_kg/m3": 1270,
+    "rotation_period_hrs": -17.2,
+    "length_of_day_hrs": 17.2,
+    "perihelion_10^6_km": 2732.7,
+    "aphelion_10^6_km": 3001.4,
+    "orbital_velocity_km_s": 6.8,
+    "orbital_inclination_degress": 0.8,
+    "orbital_eccentricity": 0.047,
+    "obliquity_to_orbit_degrees": 97.8,
+    "mean_temperature_c": -195
   },
   {
     "name": "Neptune",
@@ -125,6 +202,17 @@
     "escape_velocity_km_s": 23.5,
     "discovery": "1846 by Johann Galle",
     "fun_fact": "Neptune has the fastest winds in the Solar System — over 2,100 km/h.",
-    "image": "https://res.cloudinary.com/docy6d2mr/image/upload/v1752165262/neptune_nnhjbw.png"
+    "image": "https://res.cloudinary.com/docy6d2mr/image/upload/v1752165262/neptune_nnhjbw.png",
+    "mass_10^24_kg": 102,
+    "density_kg/m3": 1638,
+    "rotation_period_hrs": 16.1,
+    "length_of_day_hrs": 16.1,
+    "perihelion_10^6_km": 4471.1,
+    "aphelion_10^6_km": 4558.9,
+    "orbital_velocity_km_s": 5.4,
+    "orbital_inclination_degress": 1.8,
+    "orbital_eccentricity": 0.010,
+    "obliquity_to_orbit_degrees": 28.3,
+    "mean_temperature_c": -200
   }
 ]
