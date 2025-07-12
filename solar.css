@@ -123,7 +123,7 @@
         align-items: normal;
     }
     .planet-image {
-        align-self: normal;
+        align-self: center;
     }
     .planet-box {
         width: 250px;
