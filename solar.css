@@ -119,9 +119,6 @@
 
 /* For mobile view */
 @media (max-width: 950px) {
-    .planet-data {
-        align-items: normal;
-    }
     .planet-image {
         align-self: center;
     }
