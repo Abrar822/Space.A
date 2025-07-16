@@ -22,6 +22,9 @@
     justify-content: center;
     align-items: center;
 }
+.glossary-container .searchBar {
+    margin-bottom: 15px;
+}
 .search {
     margin: 10px;
     height: 60px;
@@ -50,7 +53,7 @@ input[type="search"]::-webkit-search-cancel-button {
     -webkit-appearance: none;
 }
 .term {
-    font-size: 2rem;
+    font-size: 1.7rem;
     font-weight: 400;
     cursor: pointer;
     width: max-content;
@@ -67,7 +70,7 @@ input[type="search"]::-webkit-search-cancel-button {
 }
 .definition {
     display: none;
-    font-size: 1.6rem;
+    font-size: 1.5rem;
 }
 .term i {
     font-size: 1rem;
