@@ -16,7 +16,7 @@ function getStars() {
 // getStars();
 
 // For window load animations
-let phrase1 = 'Search over 4,000 exoplanets and Uncover the secrets of the universe\n&\nwith Amazing Quiz and many more!';
+let phrase1 = 'Search over 4,500+ exoplanets and Uncover the secrets of the universe\n&\nwith Amazing Quiz and many more!';
 let container = document.querySelector('.container');
 let containerLogo = container.querySelector('.logo');
 let pageName = document.querySelector('.pageName');
