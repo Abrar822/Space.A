@@ -85,7 +85,7 @@ search.addEventListener('input', () => {
         let allSmallBox = document.querySelectorAll('.small-box');
         allSmallBox.forEach((smallBox) => {
             let term = smallBox.querySelector('.term').textContent.toLocaleLowerCase();
-            if(term.startsWith(inputValue)) {
+            if(term.includes(inputValue)) {
                 smallBox.style.display = 'inline-block';
             } else {
                 smallBox.style.display = 'none';
