@@ -145,6 +145,9 @@ body .loader {
     color: #fff;
     font-size: 1.5rem;
 }
+.phrase {
+    font-weight: 30;
+}
 /* For explore button */
 .explore {
     font-size: 1.75rem;
