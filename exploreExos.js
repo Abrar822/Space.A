@@ -163,7 +163,7 @@ function showDetails(item) {
                 <p>Number of planets in the system: ${item['Num Planets']}</p>
                 <p>Number of Stars in the system: ${item['Num Stars']}</p>
                 <p>Gaia Magnitude: ${item['Gaia Magnitude']}</p>
-                <p>Distance from Earth: ${item['Distance']} light yrs.</p>
+                <p>Distance from Earth: ${item['Distance']} parsecs</p>
                 <p>Discovery Year: ${item['Discovery Year']}</p>
                 <p>Discovery Method: ${item['Discovery Method']}</p>
                 <p>Eccentricity: ${item['Eccentricity']}</p>
