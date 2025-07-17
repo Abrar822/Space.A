@@ -347,7 +347,7 @@ body .loader {
     /* Static Homepage container and its content*/
     .container {
         padding: 20px;
-        height: 100vh;
+        height: 100dvh;
     }
     .container .logo, .navbar .logo {
         font-size: 2rem;
@@ -367,11 +367,15 @@ body .loader {
     .hero {
         flex-direction: column-reverse;
     }
+    .left, .right {
+        margin: 15px 20px;
+    }
     .left h1 {
         font-size: 2.7rem;
     }
     .left p {
         font-size: 1.3rem;
+        margin-top: 15px;
     }
     .menuBtn, .sidebar .closeBtn, .sidebar .menuList2 {
         display: inline-block;
