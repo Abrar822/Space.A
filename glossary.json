@@ -28,10 +28,6 @@
     "definition": "The average distance between a planet and its star, representing half the longest diameter of the orbit. It's commonly measured in Astronomical Units (AU), where 1 AU is the distance between Earth and the Sun."
   },
   {
-    "term": "Mass",
-    "definition": "The amount of matter contained in an object, such as a planet or star. It is often compared to Earth’s mass for planets or the Sun’s mass for stars."
-  },
-  {
     "term": "Orbital Eccentricity",
     "definition": "A measure of how stretched an orbit is. An eccentricity of 0 means a perfect circle, while values closer to 1 mean the orbit is more elongated or oval-shaped."
   },
@@ -45,15 +41,15 @@
   },
   {
     "term": "Stellar Radius",
-    "definition": "The size of a star, usually compared to the Sun’s radius. Larger stars are generally more luminous but may have shorter lifespans."
+    "definition": "The stellar radius is the size of a star measured from its center to its surface. It is usually expressed as a multiple of the Sun’s radius (R☉). For example, a star with a radius of 2 R☉ is twice as large as the Sun. Larger stars often shine more brightly but usually have shorter lifespans due to faster fuel consumption."
   },
   {
     "term": "Stellar Mass",
-    "definition": "The total mass of a star, typically measured in Solar masses (compared to the Sun). A star’s mass affects its brightness, lifespan, and ability to form planets."
+    "definition": "Stellar mass is the total amount of matter contained in a star. It is usually expressed as a multiple of the Sun’s mass (M☉). For example, a star with a mass of 3 M☉ is three times heavier than the Sun. A star’s mass greatly influences its brightness, lifespan, temperature, and the types of planets it can form."
   },
   {
     "term": "Stellar Metallicity",
-    "definition": "The proportion of elements in a star that are heavier than hydrogen and helium. Higher metallicity often means a greater chance of forming planets, especially rocky ones."
+    "definition": "Stellar metallicity refers to the fraction of a star’s material made up of elements heavier than hydrogen and helium (called 'metals' in astronomy). It is usually expressed relative to the Sun using the logarithmic scale [Fe/H], where [Fe/H] = log₁₀((Fe/H)★ / (Fe/H)☉). For example, [Fe/H] = –0.24 means the star has about 57.5% of the Sun’s metal content. Higher metallicity increases the likelihood of forming planets, especially rocky ones like Earth."
   },
   {
     "term": "Gaia Magnitude",
@@ -66,10 +62,6 @@
   {
     "term": "Radius (km)",
     "definition": "The distance from the center of the planet to its surface, measured in kilometers."
-  },
-  {
-    "term": "Distance from Sun (million km)",
-    "definition": "The average distance of the planet from the Sun, measured in million kilometers."
   },
   {
     "term": "Gravity (m/s²)",
@@ -101,7 +93,7 @@
   },
   {
     "term": "Mass",
-    "definition": "The amount of matter in a planet, star, or object. It stays the same everywhere and is measured in kilograms or compared to Earth/Sun masses."
+    "definition": "Mass is the total amount of matter in an object, such as a planet or star. In astronomy, a planet’s mass is usually expressed as a multiple of Earth’s mass (M⊕), while a star’s mass is compared to the Sun’s mass (M☉). For example, Jupiter has about 318 times the mass of Earth (318 M⊕), and a star like Sirius A has about 2.1 times the mass of the Sun (2.1 M☉)."
   },
   {
     "term": "Density",
@@ -110,10 +102,6 @@
   {
     "term": "Confirmed Moons",
     "definition": "The number of natural satellites that are officially verified to orbit a planet."
-  },
-  {
-    "term": "Radius of Earth",
-    "definition": "The distance from Earth's center to its surface, about 6,371 km. Used as a reference to compare other planets."
   },
   {
     "term": "Rotation Period (Sidereal Day)",
