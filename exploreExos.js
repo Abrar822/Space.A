@@ -22,7 +22,8 @@ numBtns.forEach((btn) => {
 let data = [];
 let filteredData = [];
 let activeData = [];
-let exosDataLink = 'https://raw.githubusercontent.com/Abrar822/Space.A/refs/heads/main/exo.json';
+let exosDataLink1 = 'https://raw.githubusercontent.com/Abrar822/Space.A/refs/heads/main/exo.json';
+let exosDataLink = 'https://raw.githubusercontent.com/Abrar822/Space.A/refs/heads/main/CleanedExoplanetData.json';
 async function fetchExosData() {
     loader.style.display = 'flex';
     let response = await fetch(exosDataLink);
@@ -163,13 +164,11 @@ function showDetails(item) {
                 <p>Number of Stars in the system: ${item['Num Stars']}</p>
                 <p>Gaia Magnitude: ${item['Gaia Magnitude']}</p>
                 <p>Distance from Earth: ${item['Distance']} light yrs.</p>
-                <p>Equilibrium Temperature: ${item['Equilibrium Temperature']} kelvin</p>
                 <p>Discovery Year: ${item['Discovery Year']}</p>
                 <p>Discovery Method: ${item['Discovery Method']}</p>
                 <p>Eccentricity: ${item['Eccentricity']}</p>
                 <p>Discovery Facility: ${item['Discovery Facility']}</p>
                 <p>Orbit Semi-Major Axis: ${item['Orbit Semi-Major Axis']} AU</p>
-                <p>Spectral Type: ${item['Spectral Type']}</p>
                 <p>Stellar Effective Temperature: ${item['Stellar Effective Temperature']} kelvin</p>
                 <p>Stellar Mass: ${item['Stellar Mass']} Solar Masses</p>
                 <p>Stellar Metallicity (Metal content relative to Sun): ${item['Stellar Metallicity']}</p>
