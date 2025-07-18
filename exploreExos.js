@@ -22,7 +22,6 @@ numBtns.forEach((btn) => {
 let data = [];
 let filteredData = [];
 let activeData = [];
-let exosDataLink1 = 'https://raw.githubusercontent.com/Abrar822/Space.A/refs/heads/main/exo.json';
 let exosDataLink = 'https://raw.githubusercontent.com/Abrar822/Space.A/refs/heads/main/CleanedExoplanetData.json';
 async function fetchExosData() {
     loader.style.display = 'flex';
@@ -254,7 +253,7 @@ function searchWithFilter(inputValue, variable) {
     // firstly, getting the filtered array, then creating the cards for it, and get the detailed data for each desired
     // For any field, getting the filteredData array
     filteredData = data.filter((d) => {
-        return d[variable].toLowerCase().startsWith(inputValue.toLowerCase());
+        return d[variable] !== undefined && d[variable] !== null && d[variable].toString().toLowerCase().startsWith(inputValue.toLowerCase());
     })
     if(filteredData.length === 0) {
         exosContent.innerHTML = `
