@@ -112,7 +112,7 @@ async function generatingFacts() {
 generatingFacts();
 
 // For generating random images
-let images = ['sun.png', 'mercury.png', 'venus.png', 'earth.png', 'mars.png', 'jupiter.png', 'saturn.png', 'uranus.png', 'neptune.png', 'pluto.png', 'moon.png', 'exo1.png'];
+let images = ['sun.png', 'mercury.png', 'venus.png', 'earth.png', 'mars.png', 'jupiter.png', 'uranus.png', 'neptune.png', 'exo1.png'];
 let right = document.querySelector('.right');
 let imgElement = right.querySelector('img');
 imgElement.src = images[Math.floor(Math.random() * images.length)];
