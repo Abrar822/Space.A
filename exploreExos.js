@@ -128,6 +128,18 @@ function showExosData() {
     
 }
 
+// For noneEvent (the event where until the main-container is opened the other btns shall not work)
+let noneEvent = document.querySelectorAll('.noneEvent');
+function none(makeItNone) {
+    noneEvent.forEach((element) => {
+        if(makeItNone) {
+            element.style.pointerEvents = 'none';
+        } else {
+            element.style.pointerEvents = 'auto';
+        }
+    });
+}
+
 // funtction to generate cards
 function generateCards(planet, exosCard) {
     exosCard.classList.add('exos-card');
@@ -148,6 +160,8 @@ function showDetails(item) {
     savedScrollPos = hiddenContainer.scrollTop;
     // This is zero so that the new page must be shown from top
     hiddenContainer.scrollTop = '0px';
+    
+    none(true);
     exosContent.innerHTML = `
         <div class="main-container">
             <div class="image-container">
@@ -178,6 +192,7 @@ function showDetails(item) {
         </div>
     `;
     exploreExosContainer.querySelector('.back').addEventListener('click', () => {
+        none(false);
         exosContent.innerHTML = ``;
         exoSearch.style.opacity = '1';
         exoButtons.style.opacity = '1';
