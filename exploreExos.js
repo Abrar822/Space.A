@@ -279,7 +279,8 @@ const key = {
     "Orbital Period": "Orbital Period Days",
     "Distance from Earth": "Distance",
     "Discovery Year": "Discovery Year",
-    "Discovery Method": "Discovery Method"
+    "Discovery Method": "Discovery Method",
+    "Discovery Facility": "Discovery Facility"
 }
 let currFilter = 'Planet Name';
 filterList.firstElementChild.style.borderBottom = '2px solid #fff';
