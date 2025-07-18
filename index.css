@@ -369,6 +369,7 @@ body .loader {
     }
     .hero {
         flex-direction: column-reverse;
+        height: auto;
     }
     .left, .right {
         margin: 15px 20px;
