@@ -381,6 +381,9 @@ body .loader {
         font-size: 1.3rem;
         margin-top: 15px;
     }
+    .right {
+        margin-top: 10px;
+    }
     .menuBtn, .sidebar .closeBtn, .sidebar .menuList2 {
         display: inline-block;
     }
