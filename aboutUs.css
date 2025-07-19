@@ -76,6 +76,15 @@
 .source a:hover {
     text-decoration: underline;
 }
+
+/* For computer larger screens */
+@media (min-width: 1301px) {
+    .about-us-container {
+        padding: 30px;
+    }
+}
+
+/* For mobile screens */
 @media (max-width: 950px) {
     .about-website .title {
         font-size: 3rem;
