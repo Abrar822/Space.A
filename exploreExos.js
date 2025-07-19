@@ -160,7 +160,10 @@ function showDetails(item) {
     savedScrollPos = hiddenContainer.scrollTop;
     // This is zero so that the new page must be shown from top
     hiddenContainer.scrollTop = '0px';
-    
+    displayNext.style.opacity = '0.4';
+    displayPrev.style.opacity = '0.4';
+    displayNext.style.pointerEvents = 'none';
+    displayPrev.style.pointerEvents = 'none';
     none(true);
     exosContent.innerHTML = `
         <div class="main-container">
@@ -198,6 +201,10 @@ function showDetails(item) {
         exoButtons.style.opacity = '1';
         exoButtons.style.pointerEvents = 'auto';
         exoSearch.style.pointerEvents = 'auto';
+        displayNext.style.opacity = '1';
+        displayPrev.style.opacity = '1';
+        displayNext.style.pointerEvents = 'auto';
+        displayPrev.style.pointerEvents = 'auto';
         exploreExosContainer.querySelector('.searchExos').style.border = '3px solid transparent';
         showExosData();
         setTimeout(() => {
