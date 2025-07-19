@@ -96,10 +96,14 @@ async function getQuiz() {
 
 // function to load the question
 let welcome = initialContent.querySelector('.welcome');
+let p1 = initialContent.querySelector('.p1');
+let p2 = initialContent.querySelector('.p2');
 function loadQuestion() {
     if(count == 10) {
         titlebar.style.display = 'none';
         content.style.display = 'none';
+        p1.style.display = 'none';
+        p2.style.display = 'none';
         initialContent.style.display = 'flex';
         welcome.innerText = 'Score: ' + score;
         return;
