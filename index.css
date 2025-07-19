@@ -259,6 +259,7 @@ body .loader {
 }
 .hero {
     width: 100%;
+    max-width: 1400px;
     height: calc(100vh - 90px);
     display: flex;
     justify-content: center;
@@ -267,7 +268,6 @@ body .loader {
     padding: 10px;
     position: absolute;
     top: 70px;
-    left: 0;
     transition: all 0.3s ease-in-out;
     z-index: 2;
 }
@@ -293,7 +293,7 @@ body .loader {
     padding: 0 30px;
 }
 .left h1 {
-    font-size: 6vw;
+    font-size: 3.5rem;
 }
 .left p {
     font-size: 1.5rem;
@@ -314,6 +314,15 @@ body .loader {
 }
 
 
+/* For bigger screen */
+@media (min-width: 1301px) {
+    .left h1 {
+        font-size: 5rem;
+    }
+    .left p {
+        font-size: 1.7rem;
+    }
+}
 
 /* For mobile view */
 @media (max-width: 970px) {
