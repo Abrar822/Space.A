@@ -13,28 +13,14 @@ function getStars() {
         }, 1000);
     }
 }
-// getStars();
 
 // For window load animations
-let phrase1 = 'Search over 4,500+ exoplanets and Uncover the secrets of the universe\n&\nwith Amazing Quiz and many more!';
 let container = document.querySelector('.container');
 let containerLogo = container.querySelector('.logo');
-let pageName = document.querySelector('.pageName');
 let centeredContent = document.querySelector('.centered-content');
-let phrase = centeredContent.querySelector('.phrase');
 window.addEventListener('load', (event) => {
     // For logos and website name
     containerLogo.style.transform = 'translateX(0%)';
-    pageName.style.transform = 'translateY(0%)';
-    // For the phrase
-    for(let i = 0; i < phrase1.length; i++) {
-        setTimeout(() => {
-            if(phrase1.charAt(i) === '\n') {
-                phrase.innerHTML += '<br>';
-            }
-            phrase.innerHTML += phrase1.charAt(i);
-        }, i * 30);
-    }
     // For button visibility
     setTimeout(() => {
         exploreButton.style.opacity = '1';
@@ -185,5 +171,4 @@ function sidebarMovement() {
     })
 }
 sidebarMovement();
-
 getStars();
