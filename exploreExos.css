@@ -385,6 +385,14 @@ input[type = 'number']::placeholder {
     }
 }
 
+@media (max-width: 600px) {
+    .explore-exos-container .image-container img {
+        height: auto;
+        width: 320px;
+        border-radius: 30px;
+    }
+}
+
 /* For mobiles having width less than 350px */
 @media (max-width: 370px) {
     .noMatchAlert {
