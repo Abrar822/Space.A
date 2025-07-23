@@ -285,8 +285,8 @@ body .loader {
 .right img {
     min-width: 300px;
     min-height: 300px;
-    max-width: 430px;
-    max-height: 430px;
+    max-width: 400px;
+    max-height: 400px;
     background-position: center;
     background-size: cover;
     width: 100%;
@@ -294,18 +294,6 @@ body .loader {
 }
 .right img:hover {
     transform: scale(1.01);
-}
-
-/* For solar system animation */
-@media (min-width: 1500px) {
-    body {
-        font-size: 18px;
-    }
-}
-@media (max-width: 600px) {
-    body {
-        font-size: 11px;
-    }
 }
 
 /* For bigger screen */
@@ -446,6 +434,34 @@ body .loader {
         cursor: pointer;
     }
 }
+
+/* For solar system animation */
+@media (min-width: 1500px) {
+    body {
+        font-size: 22px;
+    }
+    .hero {
+        max-width: 1500px;
+    }
+    .left h1 {
+        font-size: 5rem;
+    }
+    .left p {
+        font-size: 1.7rem;
+        margin-top: 20px;
+    }
+    .right img {
+        max-width: 550px;
+        max-height: 550px;
+    }
+}
+@media (max-width: 600px) {
+    body {
+        font-size: 11px;
+    }
+}
+
+
 /* Between 800px and 950px */
 @media (min-width: 800px) and (max-width: 970px) {
     .navbar .logo {
