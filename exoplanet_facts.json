@@ -1,33 +1,59 @@
 [
-    {
+  {
     "fact": "Exoplanets are planets that orbit stars outside our solar system. The first confirmed discovery of an exoplanet was made in 1992, orbiting a pulsar named PSR B1257+12, making them some of the oldest known planetary systems."
-    },
-    {
+  },
+  {
     "fact": "The smallest exoplanet discovered so far is smaller than Earth's moon, while the largest ones, known as 'super-Jupiters,' are several times the size of Jupiter. This highlights the incredible diversity of planetary sizes in the universe."
-    },
-    {
+  },
+  {
     "fact": "Some exoplanets are so close to their stars that they complete an orbit in just a few hours. These planets, called 'hot Jupiters,' have scorching surface temperatures reaching thousands of degrees Celsius."
-    },
-    {
+  },
+  {
     "fact": "The Kepler Space Telescope, launched in 2009, revolutionized our understanding of exoplanets, discovering over 2,600 confirmed planets during its mission and revealing that planets are common in the universe."
-    },
-    {
+  },
+  {
     "fact": "One of the strangest exoplanets discovered is HD 189733b, which has winds blowing at speeds of up to 8,700 km/h and rains molten glass sideways due to its scorching atmosphere."
-    },
-    {
+  },
+  {
     "fact": "Some exoplanets, like Kepler-22b, are located in the 'habitable zone' of their stars, where conditions might allow liquid water to exist. These planets are prime candidates in the search for extraterrestrial life."
-    },
-    {
+  },
+  {
     "fact": "Trappist-1 is a star system with seven Earth-sized exoplanets. Three of these planets are in the habitable zone, making it one of the most exciting discoveries in the search for life beyond Earth."
-    },
-    {
+  },
+  {
     "fact": "55 Cancri e is a super-Earth exoplanet that might be composed largely of diamond. Its high carbon content and intense pressure make it one of the universe's most dazzling worlds."
-    },
-    {
+  },
+  {
     "fact": "Rogue planets are exoplanets that wander through space without orbiting any star. These mysterious worlds drift in the darkness, possibly forming in stellar systems before being ejected."
-    },
-    {
-    "fact": "Scientists use methods like the transit method and radial velocity to detect exoplanets. These techniques allow them to study tiny wobbles or dimming of a star's light caused by orbiting planets."
-    }
+  },
+  {
+    "fact": "A Day on Venus Is Longer Than Its Year: Venus takes 243 Earth days to rotate once on its axis, but only 225 Earth days to complete one orbit around the Sun."
+  },
+  {
+    "fact": "Neutron Stars Are Extremely Dense: A sugar-cube-sized amount of neutron star material would weigh about a billion tons on Earth."
+  },
+  {
+    "fact": "There’s a Giant Water Reservoir in Space: A massive cloud of water vapor, 140 trillion times the mass of Earth’s oceans, was found around a quasar 12 billion light-years away."
+  },
+  {
+    "fact": "The Sun Makes Up 99.86% of the Solar System’s Mass: The Sun is so massive that all the planets, moons, asteroids, and comets combined make up just 0.14% of the solar system’s mass."
+  },
+  {
+    "fact": "Saturn Could Float in Water: Despite its size, Saturn is mostly made of gas and is less dense than water—meaning it would float if you could find a bathtub big enough!"
+  },
+  {
+    "fact": "There’s a Planet Made of Diamonds: 55 Cancri e, an exoplanet twice the size of Earth, is thought to be made largely of diamond due to its carbon-rich composition and high pressure."
+  },
+  {
+    "fact": "Space Isn’t Completely Silent: Although space is a vacuum, sound can travel through plasma and electromagnetic waves—NASA instruments can detect these and convert them into audio."
+  },
+  {
+    "fact": "One Day on Mercury Lasts 59 Earth Days: Mercury spins slowly, so one full day-night cycle takes 176 Earth days!"
+  },
+  {
+    "fact": "Rogue Planets Drift Through Space Alone: Rogue planets don’t orbit any star—they drift through the galaxy in darkness, possibly even outnumbering the stars."
+  },
+  {
+    "fact": "There May Be More Trees on Earth Than Stars in the Milky Way: Earth has around 3 trillion trees, while the Milky Way contains an estimated 100–400 billion stars."
+  }
 ]
-  
