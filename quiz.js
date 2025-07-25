@@ -40,6 +40,8 @@ quizBtn.forEach((btn)=> {
 let homeBtn = document.querySelectorAll('.homeBtn');
 homeBtn.forEach((btn) => {
     btn.addEventListener('click', (event) => {
+        // Generating a new fact for each home loading
+        generatingFacts();
         // For exploreExos section scrolling
         if(getComputedStyle(exploreExosContainer).display === 'flex') {
             savedScrollPos = hiddenContainer.scrollTop;
