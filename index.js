@@ -88,7 +88,7 @@ async function fetcher() {
     let response = await fetch(factsGeneratingLink);
     let data = await response.json();
     let myFact = data[Math.floor(Math.random() * data.length)].fact;
-    leftP.innerText += myFact;
+    leftP.innerText = myFact;
 }
 async function generatingFacts() {
     loader.style.display = 'flex';
