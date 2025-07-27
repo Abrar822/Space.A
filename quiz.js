@@ -16,7 +16,7 @@ quizBtn.forEach((btn)=> {
         // For hiding the rest sections
         for(let section of sections) {
             if(getComputedStyle(section).display === 'flex' && !section.classList.contains('quiz-container')) {
-                section.style.top = '1000px';
+                section.style.top = '2000px';
                 setTimeout(() => {
                     section.style.display = 'none';
                 }, 70)
@@ -48,7 +48,7 @@ homeBtn.forEach((btn) => {
         }
         for(let section of sections) {
             if(getComputedStyle(section).display === 'flex' && !section.classList.contains('hero')) {
-                section.style.top = '1000px';
+                section.style.top = '2000px';
                 setTimeout(() => {
                     section.style.display = 'none';
                 }, 70)
