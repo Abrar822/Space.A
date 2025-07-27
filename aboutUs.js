@@ -8,7 +8,7 @@ aboutUsBtn.forEach((btn) => {
                 if(getComputedStyle(exploreExosContainer).display === 'flex') {
                     savedScrollPos = hiddenContainer.scrollTop;
                 }
-                section.style.top = '1000px';
+                section.style.top = '2000px';
                 setTimeout(() => {
                     section.style.display = 'none';
                 }, 70);
