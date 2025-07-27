@@ -104,7 +104,7 @@ solarBtn.forEach((btn) => {
         }
         for(let section of sections) {
             if(getComputedStyle(section).display !== 'none' && !section.classList.contains('solar-system-container')) {
-                section.style.top = '1000px';
+                section.style.top = '2000px';
                 setTimeout(() => {
                     section.style.display = 'none';
                 }, 70);
