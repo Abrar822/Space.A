@@ -57,7 +57,7 @@ window.addEventListener('load', (event) => {
 let closeBtn = document.querySelector('.hiddenContainer .closeBtn');
 const hiddenContainer = document.querySelector('.hiddenContainer');
 closeBtn.addEventListener('click', function (event) {
-    hiddenContainer.style.top = '1000px';
+    hiddenContainer.style.top = '2000px';
     exploreButton.style.visibility = 'visible';
     // Closing the sidebar in mobile view
     sidebar.style.top = '1500px';
