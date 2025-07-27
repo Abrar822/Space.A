@@ -1,6 +1,6 @@
 .quiz-container {
     position: absolute;
-    top: 1000px;
+    top: 2000px;
     background-color: rgba(0, 204, 255, 0.1);
     display: none;
     justify-content: flex-start;
