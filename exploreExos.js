@@ -44,7 +44,7 @@ exploreExosBtn.forEach((btn) => {
         // hiding the other visible sections
         for(let section of sections) {
             if(getComputedStyle(section).display !== 'none' && !section.classList.contains('explore-exos-container')) {
-                section.style.top = '1000px';
+                section.style.top = '2000px';
                 setTimeout(() => {
                     section.style.display = 'none';
                 }, 70);
