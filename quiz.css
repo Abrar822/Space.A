@@ -14,6 +14,8 @@
     width: auto;
     min-height: 50%;
     max-width: 60%;
+    max-height: 500px;
+    max-width: 800px;
 }
 .titlebar {
     display: flex;
@@ -115,7 +117,7 @@
     background-color: transparent;
 }
 .initial-content .welcome {
-    font-size: 9vw;
+    font-size: clamp(5rem, 9vw, 9.5rem);
     width: 100%;
     text-align: center;
 }
@@ -144,6 +146,7 @@
         padding: 10px;
         min-height: none;
         max-width: none;
+        max-height: none;
     }
     .titlebar {
         justify-content: space-between;
@@ -178,18 +181,24 @@
         transform: scale(1);
     }
     .initial-content .welcome {
-        font-size: 4rem;
+        font-size: 4.5rem;
     }
     .initial-content .btns button {
         margin-top: 20px;
     }
 }
-@media (max-width: 360px) {
+@media (max-width: 375px) {
+    .quiz-container {
+        max-height: none;
+    }
     .titlebar .title {
         font-size: clamp(1.3rem, 6vw, 2rem);
     }
     .titlebar .score {
         font-size: clamp(1rem, 4vw, 2rem);
+    }
+    .initial-content .welcome {
+        font-size: 3.7rem;
     }
 }
 
@@ -198,6 +207,7 @@
     .quiz-container {
         max-width: 70%;
         margin-top: 10px;
+        max-height: none;
     }
     .titlebar {
         font-size: clamp(1.5rem, 3vw, 2.2rem);
