@@ -80,7 +80,7 @@
 /* For computer larger screens */
 @media (min-width: 1301px) {
     .about-us-container {
-        padding: 30px;
+        padding: 10px 30px;
     }
 }
 
@@ -92,9 +92,6 @@
     }
     .website-content {
         font-size: 1.3rem;
-    }
-    .features {
-        margin-top: 15px;
     }
     .contact-us-icons {
         margin: 15px 0;
