@@ -391,6 +391,10 @@ input[type = 'number']::placeholder {
         width: 320px;
         border-radius: 30px;
     }
+    .searchBar .filters {
+        top: 70px;
+        font-size: 1.4rem;
+    }
 }
 
 /* For mobiles having width less than 350px */
