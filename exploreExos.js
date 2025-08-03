@@ -102,8 +102,8 @@ function showExosData() {
             start = displayCount * 20;
             end = (displayCount + 1) * 20;
         } else {
-            start = startRange;
-            end = endRange;
+            start = parseInt(startRange);
+            end = parseInt(endRange);
         }
         exosContent.innerHTML = ``;
         // The desired number of cards are generated and then the event listeners respective to them are generated and on click perform the action specified
@@ -214,7 +214,7 @@ function showDetails(item) {
 // enter button
 let enter = document.querySelector('.enter');
 enter.addEventListener('click', () => {
-    if(range.querySelector('.startRange').value && range.querySelector('.endRange').value && range.querySelector('.startRange').value < range.querySelector('.endRange').value) {
+    if(range.querySelector('.startRange').value && range.querySelector('.endRange').value && parseInt(range.querySelector('.startRange').value) < parseInt(range.querySelector('.endRange').value)) {
         // opacity of prev and next button
         displayNext.style.opacity = '0.4';
         displayPrev.style.opacity = '0.4';
@@ -393,3 +393,4 @@ hiddenContainer.addEventListener('scroll', () => {
 scrollUp.addEventListener('click', () => {
     hiddenContainer.scrollTop = '0px';
 })
+
