@@ -77,17 +77,20 @@
     justify-content: center;
     align-items: center;
     font-size: 1.5rem;
-    transition: transform 0.15s ease;
+    transition: transform 0.3s ease;
     cursor: pointer;
     aspect-ratio: 1/1;
     width: 30px;
     height: 30px;
-    border: 2px solid #fff;
+    background-color: rgba(0, 204, 255, 0.1);
+    border: 2px solid rgba(0, 204, 255, 0.1);
+    color: #fff;
     border-radius: 50%;
     padding: 15px;
 }
 .dummy i:hover {
     transform: scale(1.05);
+    border: 2px solid #fff;
 }
 .exos-content {
     width: 100%;
@@ -423,3 +426,4 @@ input[type = 'number']::placeholder {
         word-break: break-word;
     }
 }
+
