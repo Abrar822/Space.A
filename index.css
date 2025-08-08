@@ -210,6 +210,7 @@ body .loader {
     border-radius: 20px;
     z-index: 4;
     flex-shrink: 0;
+    box-shadow: 0 15px 15px rgb(15, 15, 15);
 }
 .navbar .logo {
     font-size: 2.5rem;
@@ -228,7 +229,8 @@ body .loader {
 }
 .navbar .menuList li:hover {
     border-bottom: 3px solid #fff;
-    transition: all 0.1s ease-in-out;
+    border-radius: 10px;
+    transition: all 0.15s ease-in-out;
 }
 .menuBtn, .sidebar, .menuList2, .sidebar .closeBtn {
     display: none;
@@ -424,14 +426,20 @@ body .loader {
         width: 85%;
         height: auto;
         transition: all 0.3s ease-in-out;
+        box-shadow: 0 7px 7px rgb(15, 15, 15);
     }
     .sidebar .closeBtn {
         align-self: flex-start;
     }
     .menuList2 li {
-        border-bottom: 2px solid black;
-        padding: 10px 0;
+        border-bottom: 2px solid #ffffffa2;
+        padding: 10px 5px;
         cursor: pointer;
+        margin: 5px;
+        border-radius: 15px;
+    }
+    .menuList2 li:hover, .menuList2 li:focus {
+        border: 2px solid #ffffffa2;
     }
 }
 
@@ -458,6 +466,9 @@ body .loader {
 @media (max-width: 600px) {
     body {
         font-size: 11px;
+    }
+    .navbar {
+        box-shadow: 0 10px 10px rgb(15, 15, 15);
     }
 }
 
