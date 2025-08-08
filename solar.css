@@ -34,6 +34,7 @@
 }
 .planet-box:hover {
     transform: scale(1.02);
+    box-shadow: -7px 0px 7px rgb(15, 15, 15), 7px 7px 7px rgb(15, 15, 15);
 }
 .planet-box h3 {
     margin: 0 5px;
