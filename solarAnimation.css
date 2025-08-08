@@ -87,13 +87,6 @@
     top: .9em;
     left: .9em;
 }
-.moon img {
-    width: 0.5em;
-    height: 0.5em;
-}
-.moon {
-    position: absolute;
-}
 .mars-orbit {
     width: 16em;
     height: 16em;
@@ -177,4 +170,5 @@
 .pluto {
     top: 4.3em;
     left: 4.3em;
+
 }
