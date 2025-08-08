@@ -64,6 +64,7 @@
     transition: all 0.5s ease-in-out;
     overflow-y: scroll;
     overflow-x: hidden;
+    box-shadow: 0 7px 7px rgb(15, 15, 15);
 }
 .searchBar .filters li:hover {
     transform: scale(1.02);
@@ -135,6 +136,7 @@
 }
 .exos-card:hover {
     transform: scale(1.02);
+    box-shadow: -7px 0px 7px rgb(15, 15, 15), 7px 7px 7px rgb(15, 15, 15);
 }
 .exoButtons {
     width: 100%;
