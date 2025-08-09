@@ -17,6 +17,7 @@
     border-top-left-radius: 10px;
     cursor: pointer;
     transition: transform 0.5s ease;
+    box-shadow: 0 -7px 7px rgb(15, 15, 15);
     transition: all 0.3s ease-in-out;
 }
 .scroll-up:hover {
@@ -428,4 +429,5 @@ input[type = 'number']::placeholder {
         word-break: break-word;
     }
 }
+
 
