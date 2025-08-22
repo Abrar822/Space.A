@@ -385,7 +385,7 @@ hiddenContainer.addEventListener('scroll', () => {
             setTimeout(() => {
                 scrollUp.style.display = 'none';
             }, 100);
-        }, 7000);
+        }, 5000);
     }
     prevScrollVal = currScrollVal;
 })
@@ -393,4 +393,5 @@ hiddenContainer.addEventListener('scroll', () => {
 scrollUp.addEventListener('click', () => {
     hiddenContainer.scrollTop = '0px';
 })
+
 
