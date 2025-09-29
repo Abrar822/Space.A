@@ -33,10 +33,12 @@ async function printGlossary() {
                 myDefinition.style.display = 'none';
                 smallBox.style.border = '2px solid transparent';
                 smallBox.style.backgroundColor = 'transparent';
+                myTerm.querySelector('i').classList.remove('rotate');
             } else {
                 myDefinition.style.display = 'inline-block';
                 smallBox.style.border = '2px solid white';
                 smallBox.style.backgroundColor = 'rgba(0, 204, 255, 0.1)';
+                myTerm.querySelector('i').classList.add('rotate');
             }
         });
     }
