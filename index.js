@@ -3,16 +3,25 @@ let loader = document.querySelector('.loader');
 let body = document.querySelector('body');
 function getStars() {
     for(i = 0; i < 200; i++) {
-        let star = document.createElement('div');
-        star.className = 'stars';  
-        star.style.borderRadius = '50%';
-        star.style.top = Math.random() * 100 + '%';
-        star.style.left = Math.random() * 100 + '%';
         setTimeout(() => {
+            let star = document.createElement('div');
+            star.className = 'stars';  
+            star.style.opacity = `${Math.random() * 0.7 + 0.3}`;
+            star.style.top = Math.random() * 100 + '%';
+            star.style.left = Math.random() * 100 + '%';
+            star.style.width = `${Math.random() * 2.5}px`;
+            star.style.height = star.style.width;
             body.appendChild(star);
-        }, 1000);
+        }, i * 5);
     }
 }
+// animation for planets orbit
+let orbits = document.querySelectorAll('.orb');
+orbits.forEach((orb, idx) => {
+    setTimeout(() => {
+        orb.style.display = 'flex';
+    }, 100 * idx)
+})
 
 // For window load animations
 let container = document.querySelector('.container');
@@ -98,7 +107,7 @@ async function generatingFacts() {
 generatingFacts();
 
 // For generating random images
-let images = ['sun.png', 'mercury.png', 'venus.png', 'earth.png', 'mars.png', 'jupiter.png', 'uranus.png', 'neptune.png', 'exo1.png', 'pluto.png'];
+let images = ['sun.png', 'venus.png', 'earth.png', 'mars.png', 'jupiter.png', 'uranus.png'];
 let right = document.querySelector('.right');
 let imgElement = right.querySelector('img');
 imgElement.src = images[Math.floor(Math.random() * images.length)];
