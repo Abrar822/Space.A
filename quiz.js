@@ -1,5 +1,5 @@
 // For quiz
-let quizLink = 'https://raw.githubusercontent.com/Abrar822/Space.A/refs/heads/main/mcqs.json';
+let quizLink = 'mcqs_rephrased_filler.json';
 let quizBtn = document.querySelectorAll('.quizBtn');
 let hero = document.querySelector('.hero');
 let left = document.querySelector('.left');
@@ -105,9 +105,10 @@ function loadQuestion() {
         titlebar.style.display = 'none';
         content.style.display = 'none';
         p1.style.display = 'none';
-        p2.style.display = 'none';
+        p2.style.display = 'inline-block';
         initialContent.style.display = 'flex';
         welcome.innerText = 'Score: ' + score;
+        showMsg(score, p2);
         return;
     }
     ++count;
@@ -166,6 +167,8 @@ startQuiz.addEventListener('click', async (event) => {
     content.style.display = 'inline-block';
     titlebar.style.display = 'flex';
     initialContent.style.display = 'none';
+    p2.style.display.innerText = '';
+    p2.style.display = 'inline-block';
 });
 
 // button to go to initial content page of quiz
@@ -189,3 +192,18 @@ next.addEventListener('click', (event) => {
         clicked = false;
     }
 });
+function showMsg(score, ele) {
+    if(score == 10) {
+        ele.innerText = '🌟 Amazing! You are a Space Weather Expert!';
+    } else if(score == 0) {
+        ele.innerText = '😮 Oops! Time to explore the Sun and its storms!';
+    } else if(score >= 8) {
+        ele.innerText = '👍 Great job! You really know your Sun stuff!';
+    } else if (score >= 6) {
+        ele.innerText = '🙂 Not bad! A little more practice and you will shine!';
+    } else if(score >= 4) {
+        ele.innerText = '🤔 Keep going! Learn more about solar phenomena!';
+    } else if(score >= 1) {
+        ele.innerText = '😅 Do not worry! The Sun still has secrets for you!';
+    }
+}
