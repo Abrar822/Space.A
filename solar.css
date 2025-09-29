@@ -8,12 +8,12 @@
     flex-wrap: wrap;
     height: auto;
     width: 100%;
-    transition: all 0.3s ease-in-out;
+    transition: all 0.5s ease;
     gap: 5px;
     z-index: 2;
     color: #fff;
     padding: 5px 20px;
-    max-width: 1600px;
+    max-width: 1400px;
 }
 .planet-box {
     display: flex;
@@ -23,6 +23,9 @@
     text-align: center;
     width: 220px;
     height: 320px;
+    /* For mobile */
+    /* height: 340px */
+    /* width: 250px; */
     background-color: rgba(0, 204, 255, 0.1);
     border: 2px solid #fff;
     border-radius: 20px;
@@ -30,15 +33,15 @@
     margin: 5px;
     padding: 5px;
     cursor: pointer;
-    transition: transform 0.2s ease;
+    transition: all 0.3s ease;
 }
 .planet-box:hover {
-    transform: scale(1.02);
+    transform: scale(1.03);
     box-shadow: -7px 0px 7px rgb(15, 15, 15), 7px 7px 7px rgb(15, 15, 15);
 }
 .planet-box h3 {
     margin: 0 5px;
-    font-size: 2rem;
+    font-size: 1.75rem;
     width: 100%;
 }
 .planet-box img {
@@ -52,7 +55,7 @@
     width: 100%;
     height: 100%;
     margin: 5px;
-    font-size: 1.2rem;
+    font-size: 1rem;
     scroll-behavior: smooth;
 }
 /* For dynamic elements classes */
@@ -127,7 +130,13 @@
     }
     .planet-box {
         width: 250px;
-        height: 350px; 
+        height: 340px; 
+    }
+    .planet-box h3 {
+        font-size: 2rem;
+    }
+    .planet-box .planet-content {
+        font-size: 1.25rem;
     }
     .planet-box img {
         background-position: center;
@@ -146,7 +155,7 @@
     .planet-data {
         margin: 0;
         gap: 10px;
-        font-size: 1.4rem;
+        font-size: 1.5rem;
     }
     .planet-data h2 {
         font-size: 3rem;
