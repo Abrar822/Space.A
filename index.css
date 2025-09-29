@@ -6,7 +6,7 @@
     margin: 0;
     box-sizing: border-box;
     overflow-x: clip;
-    font-family: 'Space Grotesk', sans-serif;
+    font-family: 'Comic Sans MS', 'Comic Neue';
 }
 ::selection {
     background-color: #fff;
@@ -23,7 +23,6 @@ body {
     position: relative;
     min-height: 100dvh;
     width: 100vw;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -76,7 +75,7 @@ body .loader {
     font-size: 1rem;
     border: 3px solid #fff;
     border-radius: 10px;
-    transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease;
 }
 /* Class that generates circle per random click */
 .circles {
@@ -86,6 +85,7 @@ body .loader {
     border: 3px solid #fff;
     animation: 0.5s circleAnim;
     z-index: 3;
+    transition: all 0.15s ease;
 }
 @keyframes circleAnim {
     from {
@@ -100,8 +100,7 @@ body .loader {
 /* Class that generates the stars */
 .stars {
     background-color: #fff;
-    height: 2px;
-    width: 2px;
+    border-radius: 50%;
     position: fixed;
     z-index: -1;
 }
@@ -137,16 +136,16 @@ body .loader {
     margin: 30px;
     width: 180px;
     height: 60px;
-    border-radius: 10px;
+    border-radius: 30px;
     background-color: rgba(255, 255, 255, 0.15);
     color: #fff;
     border: 3px solid #fff;
     position: absolute;
-    bottom: 20px;
+    bottom: 35px;
     overflow: hidden;
     z-index: 1;
     opacity: 0;
-    transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease;
 }
 .explore::before {
     content: '';
@@ -158,7 +157,7 @@ body .loader {
     background-color: rgba(255, 255, 255, 0.35);
     z-index: -1;
     transform: translateX(-100%);
-    transition: all 0.25s ease-in-out;
+    transition: all 0.3s ease;
 }
 .explore:hover::before {
     transform: translateX(0%);
@@ -182,7 +181,7 @@ body .loader {
     flex-direction: column;
     border: 2px solid transparent;
     border-radius: 20px;
-    transition: all .5s ease-in-out;
+    transition: all .5s ease;
     overflow-y: scroll;
     scroll-behavior: smooth;
 }
@@ -216,7 +215,7 @@ body .loader {
     font-size: 2.5rem;
 }
 .navbar .menuList {
-    font-size: clamp(1.4rem, 2.3vw, 1.7rem);
+    font-size: clamp(1.5rem, 2.3vw, 1.7rem);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -225,18 +224,17 @@ body .loader {
 .navbar .menuList li {
     border-bottom: 3px solid transparent;
     cursor: pointer;
-    transition: all 0.2s ease-in-out;
+    transition: all 0.15s ease;
 }
 .navbar .menuList li:hover {
     border-bottom: 3px solid #fff;
     border-radius: 10px;
-    transition: all 0.15s ease-in-out;
 }
 .menuBtn, .sidebar, .menuList2, .sidebar .closeBtn {
     display: none;
 }
 .closeBtn, .menuBtn, button {
-    font-size: 1.6rem;
+    font-size: 1.5rem;
     cursor: pointer;
 }
 .closeBtn:hover {
@@ -253,7 +251,7 @@ body .loader {
     padding: 10px;
     position: absolute;
     top: 70px;
-    transition: all 0.3s ease-in-out;
+    transition: all 0.5s ease;
     z-index: 2;
 }
 .hero::-webkit-scrollbar {
@@ -281,7 +279,6 @@ body .loader {
     font-size: 3.5rem;
 }
 .left p {
-    font-size: 1.5rem;
     margin-top: 20px;
 }
 .right img {
@@ -301,10 +298,10 @@ body .loader {
 /* For bigger screen */
 @media (min-width: 1301px) {
     .left h1 {
-        font-size: 5rem;
+        font-size: 4rem;
     }
     .left p {
-        font-size: 1.7rem;
+        font-size: 1.5rem;
     }
 }
 
@@ -322,10 +319,6 @@ body .loader {
     }
     .circles {
         border: 2px solid #fff;
-    }
-    .stars {
-        width: 1px;
-        height: 1px;
     }
     .explore {
         width: 180px;
@@ -364,10 +357,10 @@ body .loader {
         margin: 15px 20px;
     }
     .left h1 {
-        font-size: 2.7rem;
+        font-size: 2.5rem;
     }
     .left p {
-        font-size: 1.3rem;
+        font-size: 1.25rem;
         margin-top: 15px;
     }
     .right {
@@ -425,7 +418,7 @@ body .loader {
         border-radius: 20px;
         width: 85%;
         height: auto;
-        transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease;
         box-shadow: 0 7px 7px rgb(15, 15, 15);
     }
     .sidebar .closeBtn {
@@ -437,9 +430,6 @@ body .loader {
         cursor: pointer;
         margin: 5px;
         border-radius: 15px;
-    }
-    .menuList2 li:hover, .menuList2 li:focus {
-        border: 2px solid #ffffffa2;
     }
 }
 
