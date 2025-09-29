@@ -1,0 +1,706 @@
+{
+  "questions": [
+    {
+      "question": "Looking at planetary science, which is correct: What is the largest planet in our solar system?",
+      "correct_answer": "Jupiter",
+      "incorrect_answers": [
+        "Saturn",
+        "Earth",
+        "Neptune"
+      ]
+    },
+    {
+      "question": "In the context of astronomy, can you identify: What is the main component of the Sun?",
+      "correct_answer": "Hydrogen",
+      "incorrect_answers": [
+        "Helium",
+        "Oxygen",
+        "Carbon"
+      ]
+    },
+    {
+      "question": "In the context of astronomy, can you identify: Which planet is known as the Red Planet?",
+      "correct_answer": "Mars",
+      "incorrect_answers": [
+        "Venus",
+        "Mercury",
+        "Jupiter"
+      ]
+    },
+    {
+      "question": "Within our solar studies, can you answer: What is the name of the galaxy that contains our Sola?",
+      "correct_answer": "The Milky Way",
+      "incorrect_answers": [
+        "Andromeda",
+        "Triangulum",
+        "Whirlpool"
+      ]
+    },
+    {
+      "question": "In relation to space exploration, tell me: What is a black hole? Please choose the most appropriate option.",
+      "correct_answer": "A region of space where gravity is so strong that nothing can escape.",
+      "incorrect_answers": [
+        "A massive asteroid",
+        "A collapsing star that emits light",
+        "A large gas cloud"
+      ]
+    },
+    {
+      "question": "Thinking about the universe, which statement fits: What is the smallest planet in our solar system?",
+      "correct_answer": "Mercury",
+      "incorrect_answers": [
+        "Mars",
+        "Venus",
+        "Pluto"
+      ]
+    },
+    {
+      "question": "Within our solar studies, can you answer: What do we call planets outside our Solar System?",
+      "correct_answer": "Exoplanets",
+      "incorrect_answers": [
+        "Dwarf planets",
+        "Rogue planets",
+        "Gas giants"
+      ]
+    },
+    {
+      "question": "Within our solar studies, can you answer: Which planet is famous for its beautiful rings?",
+      "correct_answer": "Saturn",
+      "incorrect_answers": [
+        "Uranus",
+        "Neptune",
+        "Jupiter"
+      ]
+    },
+    {
+      "question": "Within our solar studies, can you answer: What is the approximate age of the Universe?",
+      "correct_answer": "13.8 billion years",
+      "incorrect_answers": [
+        "4.5 billion years",
+        "10 billion years",
+        "20 billion years"
+      ]
+    },
+    {
+      "question": "Among celestial knowledge, which is true: What causes a comet's tail to form?",
+      "correct_answer": "The Sun's heat and solar wind",
+      "incorrect_answers": [
+        "Gravitational forces",
+        "Collisions with asteroids",
+        "Atmospheric pressure"
+      ]
+    },
+    {
+      "question": "Considering outer space, what describes: What is the closest star to Earth?",
+      "correct_answer": "The Sun",
+      "incorrect_answers": [
+        "Proxima Centauri",
+        "Sirius",
+        "Alpha Centauri"
+      ]
+    },
+    {
+      "question": "Considering outer space, what describes: What is the main belt of asteroids located between?",
+      "correct_answer": "Mars and Jupiter",
+      "incorrect_answers": [
+        "Earth and Mars",
+        "Jupiter and Saturn",
+        "Saturn and Uranus"
+      ]
+    },
+    {
+      "question": "In relation to space exploration, tell me: Which planet has the highest mountain in the Solar S?",
+      "correct_answer": "Mars",
+      "incorrect_answers": [
+        "Earth",
+        "Venus",
+        "Jupiter"
+      ]
+    },
+    {
+      "question": "In relation to space exploration, tell me: What is the name of NASA's telescope that observes d?",
+      "correct_answer": "Hubble Space Telescope",
+      "incorrect_answers": [
+        "James Webb Telescope",
+        "Kepler Telescope",
+        "Chandra Telescope"
+      ]
+    },
+    {
+      "question": "Within our solar studies, can you answer: What shape is the Milky Way galaxy?",
+      "correct_answer": "Spiral",
+      "incorrect_answers": [
+        "Elliptical",
+        "Irregular",
+        "Spherical"
+      ]
+    },
+    {
+      "question": "Thinking about the universe, which statement fits: What is the term for a rocky object that ent?",
+      "correct_answer": "Meteor",
+      "incorrect_answers": [
+        "Asteroid",
+        "Comet",
+        "Meteorite"
+      ]
+    },
+    {
+      "question": "Within our solar studies, can you answer: Which planet is known for having the Great Red Spot?",
+      "correct_answer": "Jupiter",
+      "incorrect_answers": [
+        "Mars",
+        "Saturn",
+        "Neptune"
+      ]
+    },
+    {
+      "question": "In the context of astronomy, can you identify: What is the phenomenon where light cannot escape?",
+      "correct_answer": "Event Horizon",
+      "incorrect_answers": [
+        "Singularity",
+        "Escape Velocity",
+        "Dark Boundary"
+      ]
+    },
+    {
+      "question": "Looking at planetary science, which is correct: What is the primary gas in the atmosphere of Venus?",
+      "correct_answer": "Carbon dioxide",
+      "incorrect_answers": [
+        "Nitrogen",
+        "Oxygen",
+        "Hydrogen"
+      ]
+    },
+    {
+      "question": "Within our solar studies, can you answer: Which planet is the hottest in the Solar System?",
+      "correct_answer": "Venus",
+      "incorrect_answers": [
+        "Mercury",
+        "Mars",
+        "Jupiter"
+      ]
+    },
+    {
+      "question": "Thinking about the universe, which statement fits: What is the term for a star that suddenly in?",
+      "correct_answer": "Nova",
+      "incorrect_answers": [
+        "Supernova",
+        "Quasar",
+        "Pulsar"
+      ]
+    },
+    {
+      "question": "Looking at planetary science, which is correct: What is the closest galaxy to the Milky Way?",
+      "correct_answer": "Andromeda Galaxy",
+      "incorrect_answers": [
+        "Triangulum Galaxy",
+        "Large Magellanic Cloud",
+        "Whirlpool Galaxy"
+      ]
+    },
+    {
+      "question": "Within our solar studies, can you answer: What is the term for a small body of ice, rock, and d?",
+      "correct_answer": "Comet",
+      "incorrect_answers": [
+        "Asteroid",
+        "Meteor",
+        "Dwarf Planet"
+      ]
+    },
+    {
+      "question": "Considering outer space, what describes: Which planet has the most moons? Please choose the most appropriate option.",
+      "correct_answer": "Saturn",
+      "incorrect_answers": [
+        "Jupiter",
+        "Neptune",
+        "Uranus"
+      ]
+    },
+    {
+      "question": "In the context of astronomy, can you identify: What is the name of the first artificial satelli?",
+      "correct_answer": "Sputnik 1",
+      "incorrect_answers": [
+        "Explorer 1",
+        "Apollo 11",
+        "Voyager 1"
+      ]
+    },
+    {
+      "question": "Considering outer space, what describes: Which planet rotates on its side compared to its orbit?",
+      "correct_answer": "Uranus",
+      "incorrect_answers": [
+        "Neptune",
+        "Venus",
+        "Saturn"
+      ]
+    },
+    {
+      "question": "In the context of astronomy, can you identify: What is the term for a planet that orbits a star?",
+      "correct_answer": "Exoplanet",
+      "incorrect_answers": [
+        "Dwarf planet",
+        "Protoplanet",
+        "Rogue planet"
+      ]
+    },
+    {
+      "question": "Within our solar studies, can you answer: What is the name of the spacecraft that first landed?",
+      "correct_answer": "Apollo 11",
+      "incorrect_answers": [
+        "Challenger",
+        "Voyager 1",
+        "Pioneer 10"
+      ]
+    },
+    {
+      "question": "Among celestial knowledge, which is true: What is the name of the line that marks the boundary?",
+      "correct_answer": "Event Horizon",
+      "incorrect_answers": [
+        "Gravitational Edge",
+        "Photon Sphere",
+        "Accretion Disk"
+      ]
+    },
+    {
+      "question": "Among celestial knowledge, which is true: Which planet is the densest in our Solar System?",
+      "correct_answer": "Earth",
+      "incorrect_answers": [
+        "Jupiter",
+        "Mars",
+        "Neptune"
+      ]
+    },
+    {
+      "question": "In the context of astronomy, can you identify: What is the largest type of star in the universe?",
+      "correct_answer": "Red supergiant",
+      "incorrect_answers": [
+        "White dwarf",
+        "Neutron star",
+        "Blue giant"
+      ]
+    },
+    {
+      "question": "Within our solar studies, can you answer: What element is most abundant in the universe?",
+      "correct_answer": "Hydrogen",
+      "incorrect_answers": [
+        "Helium",
+        "Oxygen",
+        "Carbon"
+      ]
+    },
+    {
+      "question": "Looking at planetary science, which is correct: What is the coldest planet in our Solar System?",
+      "correct_answer": "Neptune",
+      "incorrect_answers": [
+        "Uranus",
+        "Saturn",
+        "Mars"
+      ]
+    },
+    {
+      "question": "Among celestial knowledge, which is true: Which planet experiences the longest day (rotation pe?",
+      "correct_answer": "Venus",
+      "incorrect_answers": [
+        "Mercury",
+        "Earth",
+        "Mars"
+      ]
+    },
+    {
+      "question": "In relation to space exploration, tell me: What is the name of the largest moon of Saturn?",
+      "correct_answer": "Titan",
+      "incorrect_answers": [
+        "Enceladus",
+        "Europa",
+        "Ganymede"
+      ]
+    },
+    {
+      "question": "Considering outer space, what describes: Which planet has the shortest year (orbital period)?",
+      "correct_answer": "Mercury",
+      "incorrect_answers": [
+        "Venus",
+        "Mars",
+        "Earth"
+      ]
+    },
+    {
+      "question": "Considering outer space, what describes: Which planet has the most similar gravitational force?",
+      "correct_answer": "Venus",
+      "incorrect_answers": [
+        "Mars",
+        "Neptune",
+        "Mercury"
+      ]
+    },
+    {
+      "question": "In the context of astronomy, can you identify: Which space probe was the first to visit Pluto?",
+      "correct_answer": "New Horizons",
+      "incorrect_answers": [
+        "Voyager 1",
+        "Pioneer 10",
+        "Galileo"
+      ]
+    },
+    {
+      "question": "Among celestial knowledge, which is true: Which planet in our Solar System has the fastest winds?",
+      "correct_answer": "Neptune",
+      "incorrect_answers": [
+        "Saturn",
+        "Jupiter",
+        "Mars"
+      ]
+    },
+    {
+      "question": "Looking at planetary science, which is correct: What is the primary component of Mars' atmosphere?",
+      "correct_answer": "Carbon dioxide",
+      "incorrect_answers": [
+        "Oxygen",
+        "Nitrogen",
+        "Methane"
+      ]
+    },
+    {
+      "question": "In the context of astronomy, can you identify: What is the second brightest object in the night sky?",
+      "correct_answer": "The Moon",
+      "incorrect_answers": [
+        "Venus",
+        "Mars",
+        "Jupiter"
+      ]
+    },
+    {
+      "question": "Among celestial knowledge, which is true: Which moon has the largest subsurface ocean in the So?",
+      "correct_answer": "Europa",
+      "incorrect_answers": [
+        "Ganymede",
+        "Titan",
+        "Callisto"
+      ]
+    },
+    {
+      "question": "Considering outer space, what describes: Which planet's atmosphere is mostly composed of nitrog?",
+      "correct_answer": "Titan",
+      "incorrect_answers": [
+        "Earth",
+        "Mars",
+        "Venus"
+      ]
+    },
+    {
+      "question": "Within our solar studies, can you answer: What type of galaxy is most common in the universe?",
+      "correct_answer": "Elliptical",
+      "incorrect_answers": [
+        "Spiral",
+        "Irregular",
+        "Lenticular"
+      ]
+    },
+    {
+      "question": "In relation to space exploration, tell me: What is the most distant object humans have sent a s?",
+      "correct_answer": "Interstellar space (Voyager 1)",
+      "incorrect_answers": [
+        "Pluto",
+        "Neptune",
+        "Mars"
+      ]
+    },
+    {
+      "question": "Within our solar studies, can you answer: Which planet has the largest canyon in the Solar System?",
+      "correct_answer": "Mars",
+      "incorrect_answers": [
+        "Earth",
+        "Venus",
+        "Mercury"
+      ]
+    },
+    {
+      "question": "In relation to space exploration, tell me: Which planet has the largest volcano in the Solar System?",
+      "correct_answer": "Mars",
+      "incorrect_answers": [
+        "Earth",
+        "Venus",
+        "Mercury"
+      ]
+    },
+    {
+      "question": "In the context of astronomy, can you identify: Which star is closest to the Solar System after?",
+      "correct_answer": "Proxima Centauri",
+      "incorrect_answers": [
+        "Sirius",
+        "Alpha Centauri A",
+        "Betelgeuse"
+      ]
+    },
+    {
+      "question": "Thinking about the universe, which statement fits: Which planet was demoted to dwarf planet sta?",
+      "correct_answer": "Pluto",
+      "incorrect_answers": [
+        "Ceres",
+        "Eris",
+        "Makemake"
+      ]
+    },
+    {
+      "question": "Considering outer space, what describes: What is the brightest star in the night sky?",
+      "correct_answer": "Sirius",
+      "incorrect_answers": [
+        "Vega",
+        "Betelgeuse",
+        "Rigel"
+      ]
+    },
+    {
+      "question": "Within our solar studies, can you answer: What phenomenon causes day and night on Earth?",
+      "correct_answer": "Earth's rotation",
+      "incorrect_answers": [
+        "Earth's revolution",
+        "Solar flares",
+        "Lunar phases"
+      ]
+    },
+    {
+      "question": "In the context of astronomy, can you identify: What is the second largest planet in our Solar S?",
+      "correct_answer": "Saturn",
+      "incorrect_answers": [
+        "Jupiter",
+        "Neptune",
+        "Earth"
+      ]
+    },
+    {
+      "question": "In relation to space exploration, tell me: What is the average distance between Earth and the Sun?",
+      "correct_answer": "1 AU (Astronomical Unit)",
+      "incorrect_answers": [
+        "1 light-year",
+        "10 million km",
+        "100 AU"
+      ]
+    },
+    {
+      "question": "Within our solar studies, can you answer: Which planet is known to have the most extreme surfac?",
+      "correct_answer": "Mercury",
+      "incorrect_answers": [
+        "Venus",
+        "Earth",
+        "Neptune"
+      ]
+    },
+    {
+      "question": "Thinking about the universe, which statement fits: Which planet was discovered by Johann Galle?",
+      "correct_answer": "Neptune",
+      "incorrect_answers": [
+        "Uranus",
+        "Pluto",
+        "Mars"
+      ]
+    },
+    {
+      "question": "Among celestial knowledge, which is true: Which is the largest moon in the Solar System?",
+      "correct_answer": "Ganymede",
+      "incorrect_answers": [
+        "Titan",
+        "Europa",
+        "Callisto"
+      ]
+    },
+    {
+      "question": "Among celestial knowledge, which is true: Which planet takes the longest to orbit the Sun?",
+      "correct_answer": "Neptune",
+      "incorrect_answers": [
+        "Uranus",
+        "Saturn",
+        "Mars"
+      ]
+    },
+    {
+      "question": "Within our solar studies, can you answer: What is the name of the first rover to successfully l?",
+      "correct_answer": "Sojourner",
+      "incorrect_answers": [
+        "Opportunity",
+        "Spirit",
+        "Curiosity"
+      ]
+    },
+    {
+      "question": "In the context of astronomy, can you identify: What is the fate of the Universe if dark energy?",
+      "correct_answer": "Big Freeze",
+      "incorrect_answers": [
+        "Big Crunch",
+        "Big Rip",
+        "Steady State"
+      ]
+    },
+    {
+      "question": "Thinking about the universe, which statement fits: What event marked the beginning of the Universe?",
+      "correct_answer": "The Big Bang",
+      "incorrect_answers": [
+        "The Great Collapse",
+        "The Cosmic Burst",
+        "The Universal Ignition"
+      ]
+    },
+    {
+      "question": "In relation to space exploration, tell me: Which force is responsible for the formation of star?",
+      "correct_answer": "Gravity",
+      "incorrect_answers": [
+        "Electromagnetism",
+        "Nuclear force",
+        "Dark energy"
+      ]
+    },
+    {
+      "question": "Thinking about the universe, which statement fits: What do astronomers call a star that has exp?",
+      "correct_answer": "Supernova",
+      "incorrect_answers": [
+        "Nova",
+        "Quasar",
+        "Pulsar"
+      ]
+    },
+    {
+      "question": "In relation to space exploration, tell me: What type of star is the Sun? Please choose the most appropriate option.",
+      "correct_answer": "Yellow dwarf",
+      "incorrect_answers": [
+        "Red giant",
+        "White dwarf",
+        "Neutron star"
+      ]
+    },
+    {
+      "question": "In the context of astronomy, can you identify: What is believed to exist at the center of most?",
+      "correct_answer": "Supermassive black hole",
+      "incorrect_answers": [
+        "Giant star",
+        "Quasar",
+        "Nebula"
+      ]
+    },
+    {
+      "question": "Looking at planetary science, which is correct: Which mission was the first to successfully lan?",
+      "correct_answer": "Apollo 11",
+      "incorrect_answers": [
+        "Apollo 13",
+        "Gemini 4",
+        "Voyager 1"
+      ]
+    },
+    {
+      "question": "Considering outer space, what describes: Which telescope succeeded Hubble and observes in infrared?",
+      "correct_answer": "James Webb Space Telescope",
+      "incorrect_answers": [
+        "Spitzer Telescope",
+        "Kepler Telescope",
+        "Chandra Telescope"
+      ]
+    },
+    {
+      "question": "In the context of astronomy, can you identify: What cosmic phenomenon is known to bend light du?",
+      "correct_answer": "Gravitational lensing",
+      "incorrect_answers": [
+        "Photon burst",
+        "Dark energy pull",
+        "Tidal disruption"
+      ]
+    },
+    {
+      "question": "Within our solar studies, can you answer: What percentage of the Universe is made up of dark matter?",
+      "correct_answer": "About 27%",
+      "incorrect_answers": [
+        "10%",
+        "50%",
+        "75%"
+      ]
+    },
+    {
+      "question": "Within our solar studies, can you answer: Which element was created during the Big Bang?",
+      "correct_answer": "Hydrogen",
+      "incorrect_answers": [
+        "Oxygen",
+        "Iron",
+        "Carbon"
+      ]
+    },
+    {
+      "question": "Within our solar studies, can you answer: What is the cosmic microwave background?",
+      "correct_answer": "Radiation left over from the Big Bang",
+      "incorrect_answers": [
+        "Galactic dust",
+        "Solar wind",
+        "Black hole emission"
+      ]
+    },
+    {
+      "question": "Looking at planetary science, which is correct: Which space observatory is dedicated to studyin?",
+      "correct_answer": "Kepler Space Telescope",
+      "incorrect_answers": [
+        "Hubble Space Telescope",
+        "Voyager 1",
+        "Chandra Observatory"
+      ]
+    },
+    {
+      "question": "Looking at planetary science, which is correct: What is the term for the edge of the observable?",
+      "correct_answer": "Cosmic Horizon",
+      "incorrect_answers": [
+        "Event Horizon",
+        "Galaxy Wall",
+        "Dark Limit"
+      ]
+    },
+    {
+      "question": "In relation to space exploration, tell me: Which galaxy is on a collision course with the Milky Way?",
+      "correct_answer": "Andromeda Galaxy",
+      "incorrect_answers": [
+        "Whirlpool Galaxy",
+        "Large Magellanic Cloud",
+        "Triangulum Galaxy"
+      ]
+    },
+    {
+      "question": "In relation to space exploration, tell me: What is the term for an extremely dense star that em?",
+      "correct_answer": "Pulsar",
+      "incorrect_answers": [
+        "Quasar",
+        "Nova",
+        "Neutron star"
+      ]
+    },
+    {
+      "question": "Within our solar studies, can you answer: How old is the Milky Way galaxy estimated to be?",
+      "correct_answer": "13.6 billion years",
+      "incorrect_answers": [
+        "10 billion years",
+        "5 billion years",
+        "15 billion years"
+      ]
+    },
+    {
+      "question": "Among celestial knowledge, which is true: Which planet is sometimes referred to as Earth's twin?",
+      "correct_answer": "Venus",
+      "incorrect_answers": [
+        "Mars",
+        "Neptune",
+        "Mercury"
+      ]
+    },
+    {
+      "question": "Looking at planetary science, which is correct: Which space probe took the famous Pale Blue Dot?",
+      "correct_answer": "Voyager 1",
+      "incorrect_answers": [
+        "New Horizons",
+        "Pioneer 10",
+        "Hubble"
+      ]
+    },
+    {
+      "question": "In the context of astronomy, can you identify: What is the farthest spacecraft from Earth?",
+      "correct_answer": "Voyager 1",
+      "incorrect_answers": [
+        "Voyager 2",
+        "Pioneer 10",
+        "New Horizons"
+      ]
+    }
+  ]
+}
