@@ -10,8 +10,9 @@
     width: 100%;
     height: auto;
     color: #fff;
-    transition: all 0.3s ease-in-out;
+    transition: all 0.5s ease;
     scroll-behavior: smooth;
+    max-width: 1400px;
 }
 .about-website, .about-creator {
     display: flex;
@@ -39,7 +40,7 @@
 }
 .about-website .title {
     align-self: flex-start;
-    font-size: 3rem;
+    font-size: 2rem;
 }
 .about-creator .title {
     align-self: flex-start;
@@ -50,7 +51,7 @@
     justify-content: center;
 }
 .website-content {
-    font-size: 1.3rem;
+    font-size: 1.25rem;
 }
 .features {
     font-size: 2rem;
@@ -87,11 +88,11 @@
 /* For mobile screens */
 @media (max-width: 950px) {
     .about-website .title {
-        font-size: 3rem;
+        font-size: 2rem;
         margin-bottom: 10px;
     }
     .website-content {
-        font-size: 1.3rem;
+        font-size: 1.25rem;
     }
     .contact-us-icons {
         margin: 15px 0;
