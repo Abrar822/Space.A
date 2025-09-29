@@ -1,5 +1,5 @@
 // For quiz
-let quizLink = 'mcqs_rephrased_filler.json';
+let quizLink = 'https://raw.githubusercontent.com/Abrar822/Space.A/refs/heads/main/mcqs_rephrased_filler.json';
 let quizBtn = document.querySelectorAll('.quizBtn');
 let hero = document.querySelector('.hero');
 let left = document.querySelector('.left');
@@ -207,3 +207,4 @@ function showMsg(score, ele) {
         ele.innerText = '😅 Do not worry! The Sun still has secrets for you!';
     }
 }
+
