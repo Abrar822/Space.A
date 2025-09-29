@@ -18,7 +18,7 @@
     cursor: pointer;
     transition: transform 0.5s ease;
     box-shadow: 0 -7px 7px rgb(15, 15, 15);
-    transition: all 0.3s ease-in-out;
+    transition: all 0.5s ease;
 }
 .scroll-up:hover {
     transform: scale(1.04);
@@ -39,9 +39,9 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    transition: all .3s ease-in-out;
+    transition: all .5s ease;
     gap: 5px;
-    max-width: 1600px;
+    max-width: 1400px;
 }
 .searchBar {
     flex-direction: column;
@@ -62,14 +62,14 @@
     align-items: flex-start;
     flex-direction: column;
     gap: 5px;
-    transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease;
     overflow-y: scroll;
     overflow-x: hidden;
     box-shadow: 0 7px 7px rgb(15, 15, 15);
+    cursor: pointer;
 }
 .searchBar .filters li:hover {
     transform: scale(1.02);
-    cursor: pointer;
 }
 .dummy {
     flex-direction: row;
@@ -78,7 +78,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     transition: transform 0.3s ease;
     cursor: pointer;
     aspect-ratio: 1/1;
@@ -124,7 +124,7 @@
     align-items: center;
     text-align: center;
     width: 220px;
-    height: 320px;
+    height: 340px;
     background-color: rgba(0, 204, 255, 0.1);
     border: 2px solid #fff;
     border-radius: 20px;
@@ -158,7 +158,7 @@
     border-radius: 10px;
     background-color: rgba(0, 204, 255, 0.1);
     color: #fff;
-    font-size: 1.4rem;
+    font-size: 1.25rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -170,7 +170,7 @@
 .enter, .clear {
     cursor: pointer;
     padding: 0 5px;
-    transition: transform 0.3s ease;
+    transition: all 0.3s ease;
 }
 .clear:hover, .enter:hover {
     transform: scale(1.02);
@@ -282,7 +282,7 @@ input[type = 'number']::placeholder {
     border-radius: 10px;
     background-color: rgba(0, 204, 255, 0.1);
     color: #fff;
-    transition: transform 0.15s ease;
+    transition: all 0.15s ease;
 }
 .explore-exos-container .back:hover {
     transform: scale(1.01);
@@ -327,11 +327,14 @@ input[type = 'number']::placeholder {
     }
     .exos-card {
         width: 230px;
-        height: 340px;
+        height: 350px;
     }
-    .exos-content h3 {
-        font-size: 1.5rem;
+    .exos-content .exos-card h3 {
+        font-size: 1.75rem;
         word-break: break-word;
+    }
+    .exos-content .exos-card {
+        font-size: 1.25rem;
     }
     .exo-div {
         margin-top: 20px;
